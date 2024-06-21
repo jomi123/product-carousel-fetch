@@ -1,0 +1,28 @@
+.carousel-container {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card-carousel {
+    display: flex;
+    height: 50rem;
+
+}
+
+.card-carousel img {
+    height: 10rem;
+    width: 10rem;
+
+
+}
+
+.card {
+    border: 1px solid purple;
+    height: 40rem;
+    margin-right:10px;
+}
